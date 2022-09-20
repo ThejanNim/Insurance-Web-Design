@@ -126,6 +126,7 @@ $covered_base: #015fc9;
 
 .about__section {
     padding-top: 90px;
+    padding-bottom: 90px;
 }
 .about__left__img {
     z-index: 100;
@@ -135,7 +136,7 @@ $covered_base: #015fc9;
 }
 .about__left__shape {
     position: absolute;
-    top: 98%;
+    margin-top: -490px;
 }
 .about__right__subtitle__p {
     text-transform: uppercase;
@@ -161,16 +162,16 @@ $covered_base: #015fc9;
 .arit__title__text {
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 30px;
     color: #16243d;
     font-family: 'DM Sans', sans-serif;
 }
 .about__right__icon__des {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     font-family: 'DM Sans', sans-serif;
     line-height: 34px;
-    opacity: 0.80;
+    opacity: 0.70;
 }
 .arif__founder__img {
     text-align: center;
@@ -189,4 +190,80 @@ $covered_base: #015fc9;
     font-family: 'DM Sans', sans-serif;
     line-height: 26px;
     opacity: 0.70;
+}
+.arif__founder__btn {
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ============= Services Section ============*/
+
+.services__main__titke__h {
+    font-size: 43px;
+    line-height: 53px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+.services__card__img {
+    position: relative;
+    border-radius: 10px;
+}
+.services__card__img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.services__card__content {
+    bottom: 25px;
+    position: absolute;
+    left: 30px;
+    z-index: 4;
+}
+.services__card__content h3{
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.80;
+}
+.services__card__img::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background: rgb(22, 36, 61);
+    background: linear-gradient(0deg, rgba(22, 36, 61, 0.9164040616246498) 14%, rgba(22, 36, 61, 0.036852240896358524) 58%);
+    z-index: 3;
+}
+.servicess_card__body__des {
+    background-color: #f2f5f9;
+    border-radius: 15px;
+}
+.services__card__des__con {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 39px;
+    padding-bottom: 50px;
+}
+.service__card__des__tag {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    opacity: 0.70;
+    font-weight: 700;
+}
+.service__card__des__h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 36px;
+    text-align: left;
+    color: #16243d;
+    opacity: 0.95;
 }
