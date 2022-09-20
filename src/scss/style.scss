@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+$covered_black: #16243d;
+$covered_base: #015fc9;
+
+/*============ Header Section =============*/
+
+.ano__navlinks {
+    margin-left: 37px;
+}
+.nav__fonts {
+    font-size: 16px !important;
+    color: $covered_black !important;
+    font-weight: 500 !important;
+}
+.quote__btn {
+    background-color: $covered_base !important;
+    font-size: 14px !important;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px !important;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*============ Banner Section ============*/
+
+.bgcolor__overlay {
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(17, 29, 50, .60);
+}
+.carousel__caption_h {
+    position: relative;
+    z-index: 5;
+    line-height: 70px;
+}
+.carousel__cap_conatiner {
+    padding-top: 177px;
+    padding-bottom: 185px;
+}
+.con__caro__w {
+    width: 120% !important;
+}
+.bgo__img::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-color: rgba(17, 29, 50, .60);
+    z-index: 3;
+}
+.caro__content {
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    color: white;
+    text-align: left;
+    padding-left: 10%;
+}
+.caro__title {
+    font-size: 70px;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    line-height: 70px;
+}
+.caro__des {
+    opacity: 0.70;
+    font-size: 18px;
+}
+.caro__start_btn {
+    background-color: $covered_base;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 200px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/*========= Features Section ============*/
+
+.features__section {
+    margin-top: -30px;
+    position: relative;
+    z-index: 100;
+}
+.features__card {
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 7%);
+    border-radius: 10px;
+    justify-content: center;
+}
+.feature__card__ibody {
+    margin-right: 20px;
+    width: 80px;
+    background-color: #f2f5f9;
+    border-radius: 64px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features__card__icon {
+    padding-top: 10px;
+}
+.features__card__content {
+    text-align: left;
+}
+.features__card__title {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+.features__card__tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    opacity: 0.70;
+    margin-bottom: 2px !important;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ============== About Section ===========*/
+
+.about__section {
+    padding-top: 90px;
+}
+.about__left__img {
+    z-index: 100;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.about__left__shape {
+    position: absolute;
+    top: 98%;
+}
+.about__right__subtitle__p {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    color: #16243d;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.about__right__subtitle__p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about__right__main__title {
+    margin-bottom: 34px;
+}
+.about__right__main__title__text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.arit__title__text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16243d;
+    font-family: 'DM Sans', sans-serif;
+}
+.about__right__icon__des {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 34px;
+    opacity: 0.80;
+}
+.arif__founder__img {
+    text-align: center;
+}
+.arif__founder__img img {
+    border-radius: 50%;
+}
+.founder__sign {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    line-height: 22px;
+}
+.founder__sign__tag {
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 26px;
+    opacity: 0.70;
+}
