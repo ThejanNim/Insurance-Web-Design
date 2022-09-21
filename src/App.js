@@ -2,6 +2,7 @@ import React from 'react'
 import './App.scss';
 import About from './components/About';
 import Banner from './components/Banner';
+import Benefits from './components/Benefits';
 import Features from './components/Features';
 import Header from './components/Header';
 import Services from './components/Services';
@@ -14,6 +15,10 @@ function App() {
       <Features />
       <About />
       <Services />
+      <Benefits />
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }

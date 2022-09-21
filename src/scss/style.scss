@@ -267,3 +267,58 @@ $covered_base: #015fc9;
     color: #16243d;
     opacity: 0.95;
 }
+
+/* =============== Benefits Section =============*/
+.benefits__section {
+    padding-top: 100px;
+}
+.banefits__bg__left {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.35;
+}
+.benefits__bg__right {
+    margin-top: -40px;
+    text-align: right;
+    position: relative;
+    z-index: 10;
+}
+.benefit__content__container {
+    position: relative;
+    z-index: 100;
+    margin-top: -600px;
+}
+.benefit__title__tag__p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #16243d;
+    font-size: 16px;
+    line-height: 26px;
+}
+.benefit__des__p {
+    text-align: left;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.70;
+}
+.benefit__4cards__body {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.benefit__body__fcontent {
+    padding-top: 22px;
+    justify-content: center;
+    padding-bottom: 22px;
+}
+.benefit__card__text {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    color: #16243d;
+    opacity: 0.90;
+}
