@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import handShake from '../assets/images/charity.png'
+import Design from '../assets/images/design2.png';
 import Button from 'react-bootstrap/Button';
 
 function About() {
@@ -10,17 +11,14 @@ function About() {
         <section className='about__section'>
             <Container>
                 <Row>
-                    <Col xl={6} lg={6}>
+                    <Col className='pe-5' sm={12} xs={12} xl={6} lg={6}>
                         <div className='about__left' style={{textAlign: "left"}}>
                             <div className='about__left__img'>
-                                <img src='https://layerdrops.com/insur/main-html/assets/images/resources/about-three-img-1.png' alt=''/>
-                            </div>
-                            <div className='about__left__shape'>
-                                <img src='https://layerdrops.com/insur/main-html/assets/images/shapes/about-three-shape-1.png' alt=''/>
+                                <img style={{width: "100%"}} src={Design} alt=''/>
                             </div>
                         </div>
                     </Col>
-                    <Col xl={6} lg={6}>
+                    <Col className='ps-3' sm={12} xs={12} xl={6} lg={6}>
                         <div className='about__right' style={{textAlign: 'left'}}>
                             <div className='about__right__title'>
                                 <div className='about__right__subtitle d-flex'>
@@ -51,8 +49,8 @@ function About() {
                                 are many variations of passages of psum available, but the majority have alteration in
                                 some form, by injected humour, or randomised words look even slightly believable.</p>
                             </div>
-                            <div className='about__right__icon__founder d-flex'>
-                                <div className='arif__founder__sec d-flex'>
+                            <div className='about__right__icon__founder d-lg-flex d-xl-flex'>
+                                <div className='arif__founder__sec d-flex d-flex'>
                                     <div className='arif__founder__img me-4'>
                                         <img src='https://layerdrops.com/insur/main-html/assets/images/resources/about-three-founder-img.jpg' alt=''/>
                                     </div>
@@ -61,7 +59,7 @@ function About() {
                                         <p className='founder__sign__tag'>Founder of insur</p>
                                     </div>
                                 </div>
-                                <Button className="arif__founder__btn mt-2 ms-5 mb-5" style={{borderRadius: '15px'}} variant="primary">Let’s Get Started</Button>
+                                <Button className="arif__founder__btn mt-2 ms-lg-5 ms-md-5 ms-xl-5 mb-5" style={{borderRadius: '15px'}} variant="primary">Let’s Get Started</Button>
                             </div>
                         </div>
                     </Col>

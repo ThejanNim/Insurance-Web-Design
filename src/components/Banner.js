@@ -13,11 +13,11 @@ function Banner() {
                     <Row>
                         <Col className='px-0'>
                             <div className='bgo__img'>
-                                <img src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-1.jpg" class="d-block w-100" alt=""/>
+                                <img style={{height: "100%"}} src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-1.jpg" class="d-block w-100 img-fluid" alt=""/>
                             </div>
                             <div className='caro__content'>
                                 <h2 className='caro__title'>Insur is Protecting<br/>Your Future.</h2>
-                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales<br/> in. Integer leo arcu, mollis sit amet tempor.</p>
+                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales in. Integer leo arcu, mollis sit amet tempor.</p>
                                 <Button className='caro__start_btn'>Let's Get Started</Button>
                             </div>
                         </Col>
@@ -29,11 +29,11 @@ function Banner() {
                     <Row>
                         <Col className='px-0'>
                             <div className='bgo__img'>
-                                <img src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-2.jpg" class="d-block w-100" alt="..."/>
+                                <img style={{height: "100%"}} src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-2.jpg" class="d-block w-100" alt="..."/>
                             </div>
                             <div className='caro__content'>
                                 <h2 className='caro__title'>Insur is Protecting<br/>Your Future.</h2>
-                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales<br/> in. Integer leo arcu, mollis sit amet tempor.</p>
+                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales in. Integer leo arcu, mollis sit amet tempor.</p>
                                 <Button className='caro__start_btn'>Let's Get Started</Button>
                             </div>
                         </Col>
@@ -45,11 +45,11 @@ function Banner() {
                     <Row>
                         <Col className='px-0'>
                             <div className='bgo__img'>
-                                <img src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-3.jpg" class="d-block w-100" alt="..."/>
+                                <img style={{height: "100%"}} src="https://layerdrops.com/insur/main-html/assets/images/backgrounds/main-slider-3-3.jpg" class="d-block w-100" alt="..."/>
                             </div>
                             <div className='caro__content'>
                                 <h2 className='caro__title'>Insur is Protecting<br/>Your Future.</h2>
-                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales<br/> in. Integer leo arcu, mollis sit amet tempor.</p>
+                                <p className='caro__des'>Phasellus condimentum laoreet turpis, ut tincid sodales in. Integer leo arcu, mollis sit amet tempor.</p>
                                 <Button className='caro__start_btn'>Let's Get Started</Button>
                             </div>
                         </Col>

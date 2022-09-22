@@ -25,7 +25,7 @@ function Services() {
                         </div>
                     </Col>
                     <Col xl={3} lg={3}>
-                        <div className='services__card__body'>
+                        <div className='services__card__body__1 scb__top'>
                             <div className='services__card__img'>
                                 <img src='https://layerdrops.com/insur/main-html/assets/images/services/services-3-1.jpg' alt=''/>
                                 <div className='services__card__content'>
@@ -35,7 +35,7 @@ function Services() {
                         </div>
                     </Col>
                     <Col xl={3} lg={3}>
-                        <div className='services__card__body'>
+                        <div className='services__card__body__1'>
                             <div className='services__card__img'>
                                 <img src='https://layerdrops.com/insur/main-html/assets/images/services/services-3-2.jpg' alt=''/>
                                 <div className='services__card__content'>

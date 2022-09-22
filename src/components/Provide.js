@@ -38,16 +38,16 @@ function Provide() {
                                         <Col sm={3}>
                                             <Nav variant="pills" className="flex-column provide__tab__body">
                                                 <Nav.Item>
-                                                    <Nav.Link className='provide__nav__tab__item' eventKey="first">Our Values</Nav.Link>
+                                                    <Nav.Link className='provide__nav__tab__item provide__bav__item__bb' eventKey="first">Our Values</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link className='provide__nav__tab__item' eventKey="second">Company Mission</Nav.Link>
+                                                    <Nav.Link className='provide__nav__tab__item provide__bav__item__bb' eventKey="second">Company Mission</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link className='provide__nav__tab__item' eventKey="third">Our Goals</Nav.Link>
+                                                    <Nav.Link className='provide__nav__tab__item provide__bav__item__bb' eventKey="third">Our Goals</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link className='provide__nav__tab__item' eventKey="fouth">Cash Rewards</Nav.Link>
+                                                    <Nav.Link className='provide__nav__tab__item provide__bav__item__bb' eventKey="fouth">Cash Rewards</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link className='provide__nav__tab__item' eventKey="fifth">Why Choose Insur</Nav.Link>

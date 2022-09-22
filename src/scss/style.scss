@@ -24,7 +24,27 @@ $covered_base: #015fc9;
 }
 
 /*============ Banner Section ============*/
-
+@media only screen and (max-width: 728px) {
+    .bgo__img {
+        width: 300% !important;
+        margin-left: -100%;
+        height: 700px;
+    }
+    .caro__title {
+        font-size: 33px !important;
+        margin-left: -5%;
+        line-height: 43px !important;
+        padding-bottom: 12px;
+    }
+    .caro__des {
+        margin-left: -5%;
+        padding-right: 14%;
+        padding-bottom: 15px;
+    }
+    .caro__start_btn {
+        margin-left: -5%;
+    }
+}
 .bgcolor__overlay {
     position: absolute;
     overflow: hidden;
@@ -82,7 +102,11 @@ $covered_base: #015fc9;
 
 
 /*========= Features Section ============*/
-
+@media only screen and (max-width: 728px) {
+    .features__card {
+        margin-bottom: 25px;
+    }
+}
 .features__section {
     margin-top: -30px;
     position: relative;
@@ -124,6 +148,27 @@ $covered_base: #015fc9;
 
 /* ============== About Section ===========*/
 
+@media only screen and (max-width: 728px) {
+    .about__left__img {
+        width: 110% !important;
+    }
+    .about__right__subtitle {
+        margin-top: 45px;
+        margin-bottom: -15px;
+    }
+    .arit__icon img {
+        width: 300% !important;
+        padding-top: 50%;
+        padding-right: 25px;
+    }
+    .about__right__icon__founder {
+        display: block !important;
+    }
+    .arif__founder__btn {
+        margin-left: 0% !important;
+    }
+}
+
 .about__section {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -134,9 +179,10 @@ $covered_base: #015fc9;
     border-radius: 10px;
     position: relative;
 }
-.about__left__shape {
+.about__left__shape img {
     position: absolute;
-    margin-top: -490px;
+    width: 35%;
+    margin-top: -600px;
 }
 .about__right__subtitle__p {
     text-transform: uppercase;
@@ -201,6 +247,14 @@ $covered_base: #015fc9;
 
 /* ============= Services Section ============*/
 
+@media only screen and (max-width: 728px) {
+    .services__card__body__1 {
+        margin-bottom: 25px;
+    }
+    .scb__top {
+        margin-top: 20px ;
+    }
+}
 .services__main__titke__h {
     font-size: 43px;
     line-height: 53px;
@@ -269,19 +323,31 @@ $covered_base: #015fc9;
 }
 
 /* =============== Benefits Section =============*/
+
+@media only screen and (max-width: 728px) {
+    .benefits__bg__right img {
+        width: 0px !important;
+    }
+    .benefits__section {
+        padding-top: 700px !important;
+    }
+    .banefits__bg__left {
+        width: 300% !important;
+    }
+}
 .benefits__section {
-    padding-top: 100px;
-}
-.banefits__bg__left {
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    z-index: 100;
     position: absolute;
-    z-index: 1;
-    opacity: 0.35;
+    background-image: url('https://layerdrops.com/insur/main-html/assets/images/backgrounds/benefits-bg-2.jpg');
 }
-.benefits__bg__right {
-    margin-top: -40px;
-    text-align: right;
-    position: relative;
-    z-index: 10;
+.benefits__bg__right img {
+    width: 55%;
+    position: absolute;
+    z-index: 110;
 }
 .benefit__content__container {
     position: relative;
@@ -312,7 +378,6 @@ $covered_base: #015fc9;
 }
 .benefit__body__fcontent {
     padding-top: 22px;
-    justify-content: center;
     padding-bottom: 22px;
 }
 .benefit__card__text {
@@ -325,6 +390,19 @@ $covered_base: #015fc9;
 
 /* ============ Provide Section ===============*/
 
+@media only screen and (max-width: 728px) {
+    .provide__section {
+        margin-top: 430px;
+    }
+    .values__tab__body {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+.provide__section {
+    padding-top: 40px;
+    position: absolute;
+}
 .provide__container {
     margin-top: -620px;
     position: relative;
@@ -398,17 +476,46 @@ $covered_base: #015fc9;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #16243d !important;
+    border-left: 6px solid #0ce0ff !important;   
 }
 .provide__nav__tab__item {
     text-align: left;
     padding-left: 26px;
     color: #16243d !important;
-    padding-top: 26px !important;
-    padding-bottom: 26px !important;
+    padding-top: 24px !important;
+    padding-bottom: 25px !important;
     font-size: 18px !important;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
+    border-left: 6px solid #e0e4e8 !important; 
 }
 .nav-pills .nav-link {
     margin-right: 40px;
+}
+.provide__bav__item__bb {
+    border-bottom: 2px solid #e0e4e8 !important;
+}
+
+/* ============ Benefits ===========*/
+
+@media only screen and (max-width: 728px) {
+    .benefts2__right__bg__img {
+        visibility: hidden;
+    }
+    .benefits2__map__img {
+        width: 90%;
+    }
+}
+.benefts2__right__bg__img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url('https://wgl-demo.net/yourprotect/wp-content/uploads/2021/07/image_5.jpg');
+}
+.benefit2__left__fbody {
+    text-align: left;
+}
+.benefits2__map__img {
+    opacity: 0.20;
+    position: absolute;
 }
