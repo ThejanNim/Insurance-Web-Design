@@ -7,7 +7,7 @@ import { faCircleCheck} from '@fortawesome/free-solid-svg-icons'
 
 function Benefits2() {
     return (
-        <section>
+        <section className='mt-5'>
             <Container fluid>
                 <Row>
                     <Col xl={6} lg={6} style={{paddingLeft: "6%"}}>

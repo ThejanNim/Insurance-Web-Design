@@ -16,14 +16,8 @@ function App() {
       <Features />
       <About />
       <Services />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Benefits2 />
       <Provide />
-      <br/>
-      <br/>
     </div>
   );
 }

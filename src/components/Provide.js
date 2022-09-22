@@ -9,13 +9,14 @@ import Flag from '../assets/images/flag.png';
 function Provide() {
     return (
         <section>
-            <div className='provide__section'>
-                <img style={{width: '100%', opacity: '0.20', mixBlendMode: "luminosity"}} src='https://layerdrops.com/insur/main-html/assets/images/backgrounds/we-provide-bg.jpg' alt=''/>
+            <div className='provide__section mt-4'>
+                {/*<img style={{width: '100%', opacity: '0.20', mixBlendMode: "luminosity"}} src='https://layerdrops.com/insur/main-html/assets/images/backgrounds/we-provide-bg.jpg' alt=''/>*/}
                 <Container className='provide__container'>
+                    
                     <Row>
                         <Col>
                             <div className='provide__main__title__body'>
-                                <div className='provide__sub__title d-flex'>
+                                <div className='provide__sub__title d-flex pt-5'>
                                     <div className='about__subtitle__left__shape'>
                                         <img src='https://layerdrops.com/insur/main-html/assets/images/shapes/section-title-shape-1.png' alt=''/>
                                     </div>
@@ -29,8 +30,8 @@ function Provide() {
                                 </div>
                             </div>
                         </Col>
-                    </Row>
-                    <Row className='mt-5'>
+    </Row>
+             <Row className='mt-5'>
                         <Col>
                             <div> 
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -57,7 +58,7 @@ function Provide() {
                                         <Col sm={9}>
                         <Tab.Content className='provide__tab__content__body'>
                             <Tab.Pane eventKey="first">
-                                <div className='values__tab__body'>
+                                <div className='values__tab__body pt-5 pb-xxl-2 pb-lg-5'>
                                     <Container>
                                         <Row>
                                             <Col lg={8} xl={8}>
@@ -166,7 +167,7 @@ function Provide() {
                                         <Row>
                                             <Col lg={8} xl={8}>
                                                 <div className='provide__left__body'>
-                                                    <div className='provide__left_icon pb-3'>
+                                                    <div className='provide__left_icon'> {/* pb-3 */}
                                                         <img className='provide__left__icon__img' src={Flag} alt=''/>
                                                     </div>
                                                     <div>
@@ -192,7 +193,7 @@ function Provide() {
             </Tab.Container>
     </div>
                         </Col>
-                    </Row>
+    </Row>
                 </Container>
             </div>
         </section>
