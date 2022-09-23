@@ -10,30 +10,30 @@ function Testimonials() {
         <section className="testimonials__section">
             <Container>
                 <Row className='mb-5'>
-                    <Col>
+                    <Col sm={12}>
                         <div className="testi__left">
                         <div className='benefit__title pt-5'>
                             <div className='benefit__sub__title d-flex'>
                                 <div className='about__subtitle__left__shape'>
                                     <img src='https://layerdrops.com/insur/main-html/assets/images/shapes/section-title-shape-1.png' alt=''/>
                                 </div>
-                                <p className='benefit__title__tag__p'>Our Services</p>    
+                                <p className='benefit__title__tag__p'>Testimonials</p>    
                                 <div className='about__subtitle__right__shape'>
                                     <img src='https://layerdrops.com/insur/main-html/assets/images/shapes/section-title-shape-2.png' alt=''/>
                                 </div>
                             </div>
-                            <h2 className='services__main__titke__h'>What our customers are talking about</h2>
+                            <h2 className='services__main__titke__h testi__mobile__title'>What our customers are talking about</h2>
                        </div>
                         </div>
                     </Col>
-                    <Col className='pt-5'> 
+                    <Col sm={12} className='pt-5'> 
                         <div className="testi__right pt-5 pe-3">
                             <p className="testi__right__p">Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu. Donec aliquet blandit enim feugiat mattis.</p>
                         </div>
                     </Col>
                 </Row>
-                <Row className='pt-5 pb-5'>
-                    <Col xl={4} lg={4}>
+                <Row className='testi__client__row pt-5 pb-5'>
+                    <Col className="testi__client__col" sm={12} xl={4} lg={4}>
                         <div className='testi__client__body'>
                             <div className='testi__client__img__box'>
                                 <div className="testi__client__img">
@@ -59,7 +59,7 @@ function Testimonials() {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} lg={4}>
+                    <Col className="testi__client__col" sm={12} xl={4} lg={4}>
                         <div className='testi__client__body'>
                             <div className='testi__client__img__box'>
                                 <div className="testi__client__img">
@@ -85,7 +85,7 @@ function Testimonials() {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} lg={4}>
+                    <Col sm={12} xl={4} lg={4}>
                         <div className='testi__client__body'>
                             <div className='testi__client__img__box'>
                                 <div className="testi__client__img">

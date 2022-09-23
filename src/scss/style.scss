@@ -517,7 +517,20 @@ $covered_base: #015fc9;
 }
 
 /* =============== Testimonials ================ */
-
+@media only screen and (max-width: 728px) {
+    .testi__right__p {
+        margin-top: -80px;
+    }
+    .testi__mobile__title {
+        font-size: 35px;
+    }
+    .testi__client__row {
+        margin-top: -30px !important;
+    }
+    .testi__client__col {
+        padding-bottom: 60px;
+    }
+}
 .testi__right__p {
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
