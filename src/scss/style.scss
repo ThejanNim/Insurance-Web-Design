@@ -515,3 +515,67 @@ $covered_base: #015fc9;
     opacity: 0.20;
     position: absolute;
 }
+
+/* =============== Testimonials ================ */
+
+.testi__right__p {
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color: #696e77;
+    text-align: left;
+}
+.testi__client__body {
+    border: 1px solid #e0e4e8;
+    border-radius: 20px;
+}
+.testi__client__img {
+    width: 95px;
+    margin: auto;
+    margin-top: -40px;
+    height: 95px;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(-29deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
+    padding: 5px;
+}
+.testi__client__img img {
+    width: 100%;
+    z-index: 10;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+.test__client__quote {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 30px 0px rgb(0 0 0 / 7%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 110;
+    margin: auto;
+    position: relative;
+    margin-top: -30px;
+}
+.test__client__quote img {
+    padding-top: 30%;
+}
+.testi__card__icon {
+    color: #fab600;
+    font-size: 14px;
+}
+.testi__client__text {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.70;
+    font-family: 'DM Sans', sans-serif;
+}
+.testi__client__details h6{
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+.testi__client__details p {
+    color: #015fc9;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}

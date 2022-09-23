@@ -31,7 +31,7 @@ function Provide() {
                             </div>
                         </Col>
     </Row>
-             <Row className='mt-5'>
+             <Row className='mt-3 pb-5'>
                         <Col>
                             <div> 
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">

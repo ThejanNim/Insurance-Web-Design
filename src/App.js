@@ -2,12 +2,11 @@ import React from 'react'
 import './App.scss';
 import About from './components/About';
 import Banner from './components/Banner';
-import Benefits from './components/Benefits';
 import Benefits2 from './components/Benefits2';
 import Features from './components/Features';
-import Header from './components/Header';
 import Provide from './components/Provide';
 import Services from './components/Services';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
       <Services />
       <Benefits2 />
       <Provide />
+      <Testimonials />
     </div>
   );
 }
