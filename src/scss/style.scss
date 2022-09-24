@@ -128,6 +128,7 @@ $covered_base: #015fc9;
     margin-bottom: 30px;
 }
 .features__card__icon {
+    color: #015fc9;
     padding-top: 10px;
 }
 .features__card__content {
@@ -591,4 +592,20 @@ $covered_base: #015fc9;
     font-weight: 700;
     margin-top: -10px;
     padding-bottom: 40px;
+}
+
+/* =========== Footer ============ */
+.footer__section {
+
+}
+.footer__dv {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #015fc9;
+    background-image: url('https://layerdrops.com/insur/main-html/assets/images/backgrounds/site-footer-bg.png');
+}
+.footer__details__logo {
+    position: absolute;
+    z-index: 120;
 }

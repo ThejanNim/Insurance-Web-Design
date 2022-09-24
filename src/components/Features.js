@@ -13,7 +13,7 @@ function Features() {
                     <Col sm={12} xs={12} lg={4} xl={4}>
                         <div className='features__card d-flex'>
                             <div className='feature__card__ibody'>
-                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x' color='blue'/>
+                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x'/>
                             </div>
                             <div className='features__card__content'>
                                 <p className="features__card__tag">Lorem ipsum</p>
@@ -24,7 +24,7 @@ function Features() {
                     <Col sm={12} xs={12} lg={4} xl={4}>
                         <div className='features__card d-flex'>
                             <div className='feature__card__ibody'>
-                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x' color='blue'/>
+                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x'/>
                             </div>
                             <div className='features__card__content'>
                                 <p className="features__card__tag">Lorem ipsum</p>
@@ -35,7 +35,7 @@ function Features() {
                     <Col sm={12} xs={12} lg={4} xl={4}>
                         <div className='features__card d-flex'>
                             <div className='feature__card__ibody'>
-                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x' color='blue'/>
+                                <FontAwesomeIcon className='features__card__icon' icon={faMoneyCheckDollar} size='3x'/>
                             </div>
                             <div className='features__card__content'>
                                 <p className="features__card__tag">Lorem ipsum</p>

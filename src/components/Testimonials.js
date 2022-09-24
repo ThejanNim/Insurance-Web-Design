@@ -10,7 +10,7 @@ function Testimonials() {
         <section className="testimonials__section">
             <Container>
                 <Row className='mb-5'>
-                    <Col sm={12}>
+                    <Col sm={12} lg={6} xl={6}>
                         <div className="testi__left">
                         <div className='benefit__title pt-5'>
                             <div className='benefit__sub__title d-flex'>
@@ -26,7 +26,7 @@ function Testimonials() {
                        </div>
                         </div>
                     </Col>
-                    <Col sm={12} className='pt-5'> 
+                    <Col sm={12} lg={6} xl={6} className='pt-5'> 
                         <div className="testi__right pt-5 pe-3">
                             <p className="testi__right__p">Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu. Donec aliquet blandit enim feugiat mattis.</p>
                         </div>
